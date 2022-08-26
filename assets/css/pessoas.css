@@ -1,0 +1,17 @@
+.pessoas{
+    display: flex;
+    justify-content: space-around; /*justify-content - Alinha os itens flex no container de acordo com a direção. Space-around - Cria um espaçamento entre os elementos. Os espaçamentos do meio são duas vezes maiores que o inicial e final.*/
+    padding-top: 3rem;
+}
+
+@media  screen and (min-width: 0) {
+    .pessoas{
+        flex-direction: column;
+    }
+}
+
+@media  screen and (min-width: 768px) {
+    .pessoas{
+        flex-direction: row;
+    }
+}

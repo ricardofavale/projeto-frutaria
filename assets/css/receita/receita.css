@@ -1,0 +1,29 @@
+.receita{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column; /*Define a direção dos flex itens. Column - Os itens ficam em uma única coluna, um embaixo do outro.*/
+    margin-bottom: 5rem;
+
+}
+
+@media  screen and (min-width: 0) {
+    .receita{
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media  screen and (min-width: 768px) {
+    .receita{
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem ); /*porcentagem de 33 para ficarem 3 receitas e dps aumentar para 4 */
+    }
+}
+
+@media  screen and (min-width: 992px) {
+    .receita{
+        margin-right: 5rem;
+        width: calc(25% - 5rem); /*calculo feito devido a margin de 5rem*/
+    }
+}
+

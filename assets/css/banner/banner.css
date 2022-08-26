@@ -1,0 +1,4 @@
+.banner{
+    position: relative; /*para que os filhos do banner sejam posicionados relativamente ao banner*/
+}
+
